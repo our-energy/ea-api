@@ -1,0 +1,14 @@
+{
+    "name": "ourenergy/ea-api",
+    "description": "A wrapper for the Electricity Authority's Electricity Market Information API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Andrew Joll",
+            "email": "andrew.joll@ourenergy.co.nz"
+        }
+    ]
+}
