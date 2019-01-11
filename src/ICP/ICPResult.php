@@ -1,11 +1,11 @@
 <?php
 
-namespace OurEnergy\EMI;
+namespace OurEnergy\EMI\ICP;
 
 /**
  * Represents an ICP object from the API response
  */
-class ICPNumber
+class ICPResult
 {
     /**
      * @var array

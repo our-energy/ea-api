@@ -2,13 +2,26 @@
     "name": "ourenergy/ea-api",
     "description": "A wrapper for the Electricity Authority's Electricity Market Information API",
     "type": "library",
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    },
     "authors": [
         {
             "name": "Andrew Joll",
             "email": "andrew.joll@ourenergy.co.nz"
         }
-    ]
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "OurEnergy\\EMI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OurEnergy\\EMI\\Tests\\": "tests/"
+        }
+    }
 }
