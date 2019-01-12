@@ -1,0 +1,207 @@
+[
+    {
+        "Address": {
+            "PhysicalAddressUnit": "",
+            "PhysicalAddressNumber": "260",
+            "PhysicalAddressStreet": "TINAKORI ROAD",
+            "PhysicalAddressSuburb": "THORNDON",
+            "PhysicalAddressTown": "WELLINGTON",
+            "PhysicalAddressRegion": "Wellington",
+            "PhysicalAddressPostCode": 6011,
+            "GPS_Easting": 0.0,
+            "GPS_Northing": 0.0
+        },
+        "Network": {
+            "Network": "CKHK",
+            "POC": "KWA0111",
+            "ReconciliationType": "GN",
+            "GenerationCapacity": 0.0,
+            "FuelType": "",
+            "DirectBilledStatus": ""
+        },
+        "Pricing": {
+            "DistributorPriceCategoryCode": "RSU",
+            "DistributorLossCategoryCode": "VECG1",
+            "ChargeableCapacity": 0.00,
+            "DistributorInstallationDetails": ""
+        },
+        "Trader": {
+            "Trader": "CTCT",
+            "DailyUnmeteredkWh": "",
+            "UnmeteredLoadDetails": ""
+        },
+        "Metering": {
+            "MeteringEquipmentProvider": "NGCM",
+            "InstallationInformation": [
+                {
+                    "MeteringInstallationCategory": 1,
+                    "MeteringInstallationType": "HHR",
+                    "ComponentInformation": [
+                        {
+                            "MeteringComponentSerialNumber": "214279822",
+                            "MeterType": "HHR",
+                            "AMIFlag": true,
+                            "CompensationFactor": 1.0,
+                            "ChannelInformation": [
+                                {
+                                    "MeteringComponentSerialNumber": "214279822",
+                                    "ChannelNumber": 1,
+                                    "RegisterContentCode": "UN",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "C"
+                                },
+                                {
+                                    "MeteringComponentSerialNumber": "214279822",
+                                    "ChannelNumber": 2,
+                                    "RegisterContentCode": "UN",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "C"
+                                },
+                                {
+                                    "MeteringComponentSerialNumber": "214279822",
+                                    "ChannelNumber": 3,
+                                    "RegisterContentCode": "UN",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "C"
+                                },
+                                {
+                                    "MeteringComponentSerialNumber": "214279822",
+                                    "ChannelNumber": 50,
+                                    "RegisterContentCode": "7304",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "A"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "ICPIdentifier": "0000120725TR687",
+        "ICPStatus": 2,
+        "Messages": null
+    },
+    {
+        "Address": {
+            "PhysicalAddressUnit": "",
+            "PhysicalAddressNumber": "160",
+            "PhysicalAddressStreet": "TINAKORI ROAD",
+            "PhysicalAddressSuburb": "THORNDON",
+            "PhysicalAddressTown": "WELLINGTON",
+            "PhysicalAddressRegion": "Wellington",
+            "PhysicalAddressPostCode": 6011,
+            "GPS_Easting": 0.0,
+            "GPS_Northing": 0.0
+        },
+        "Network": {
+            "Network": "CKHK",
+            "POC": "KWA0111",
+            "ReconciliationType": "GN",
+            "GenerationCapacity": 0.0,
+            "FuelType": "",
+            "DirectBilledStatus": ""
+        },
+        "Pricing": {
+            "DistributorPriceCategoryCode": "RSU",
+            "DistributorLossCategoryCode": "VECG1",
+            "ChargeableCapacity": 0.00,
+            "DistributorInstallationDetails": ""
+        },
+        "Trader": {
+            "Trader": "CTCT",
+            "DailyUnmeteredkWh": "",
+            "UnmeteredLoadDetails": ""
+        },
+        "Metering": {
+            "MeteringEquipmentProvider": "NGCM",
+            "InstallationInformation": [
+                {
+                    "MeteringInstallationCategory": 1,
+                    "MeteringInstallationType": "HHR",
+                    "ComponentInformation": [
+                        {
+                            "MeteringComponentSerialNumber": "208219448",
+                            "MeterType": "HHR",
+                            "AMIFlag": true,
+                            "CompensationFactor": 1.0,
+                            "ChannelInformation": [
+                                {
+                                    "MeteringComponentSerialNumber": "208219448",
+                                    "ChannelNumber": 1,
+                                    "RegisterContentCode": "IN",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "C"
+                                },
+                                {
+                                    "MeteringComponentSerialNumber": "208219448",
+                                    "ChannelNumber": 50,
+                                    "RegisterContentCode": "7304",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "A"
+                                }
+                            ]
+                        },
+                        {
+                            "MeteringComponentSerialNumber": "211086171",
+                            "MeterType": "HHR",
+                            "AMIFlag": true,
+                            "CompensationFactor": 1.0,
+                            "ChannelInformation": [
+                                {
+                                    "MeteringComponentSerialNumber": "211086171",
+                                    "ChannelNumber": 1,
+                                    "RegisterContentCode": "UN",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "C"
+                                },
+                                {
+                                    "MeteringComponentSerialNumber": "211086171",
+                                    "ChannelNumber": 50,
+                                    "RegisterContentCode": "7304",
+                                    "PeriodOfAvailability": "24",
+                                    "UnitOfMeasurement": "kWh",
+                                    "EnergyFlowDirection": "X",
+                                    "AccumulatorType": "A"
+                                }
+                            ]
+                        },
+                        {
+                            "MeteringComponentSerialNumber": "910010792",
+                            "MeterType": "",
+                            "AMIFlag": false,
+                            "CompensationFactor": 1.0,
+                            "ChannelInformation": [
+                                {
+                                    "MeteringComponentSerialNumber": "910010792",
+                                    "ChannelNumber": 1,
+                                    "RegisterContentCode": "",
+                                    "PeriodOfAvailability": "",
+                                    "UnitOfMeasurement": "",
+                                    "EnergyFlowDirection": "",
+                                    "AccumulatorType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "ICPIdentifier": "0000143772TR3FD",
+        "ICPStatus": 2,
+        "Messages": null
+    }
+]

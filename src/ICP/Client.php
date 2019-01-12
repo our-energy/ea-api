@@ -3,33 +3,37 @@
 namespace OurEnergy\EMI\ICP;
 
 use OurEnergy\EMI\BaseClient;
+use OurEnergy\EMI\Exceptions\InvalidResponse;
+use GuzzleHttp\Exception\GuzzleException;
 
 class Client extends BaseClient
 {
     /**
-     * Gets connection data for an ICP number
-     *
      * @param string $icpNumber
+     *
      * @return ICPResult
+     * @throws GuzzleException
+     * @throws InvalidResponse
      */
-    public function getICPConnectionData(string $icpNumber) : ICPResult
+    public function getICPConnectionData(string $icpNumber): ICPResult
     {
         $data = $this->getRequest("/ICPConnectionData/single/", [
             'id' => $icpNumber
         ]);
-        
+
         $icp = new ICPResult($data[0]);
 
         return $icp;
     }
 
     /**
-     * Gets connection data for a set of ICP numbers
-     *
      * @param array $icpNumbers
+     *
      * @return array
+     * @throws GuzzleException
+     * @throws InvalidResponse
      */
-    public function getICPConnectionList(array $icpNumbers) : array
+    public function getICPConnectionList(array $icpNumbers): array
     {
         $icpNumbers = implode(",", $icpNumbers);
 
@@ -37,30 +41,31 @@ class Client extends BaseClient
             'ids' => $icpNumbers
         ]);
 
-        $icps = [];
+        $icpList = [];
 
         foreach ($data as $icpData) {
-            $icps[] = new ICPResult($icpData);
+            $icpList[] = new ICPResult($icpData);
         }
 
-        return $icps;
+        return $icpList;
     }
 
     /**
-     * Search for ICPs by address
-     *
      * @param string $unitOrNumber
      * @param string $streetOrPropertyName
-     * @param string $suburbOrTown
-     * @param string $region
+     * @param string|null $suburbOrTown
+     * @param string|null $region
+     *
      * @return array
+     * @throws GuzzleException
+     * @throws InvalidResponse
      */
     public function getICPSearchResults(
-        string $unitOrNumber, 
-        string $streetOrPropertyName, 
-        string $suburbOrTown = null, 
+        string $unitOrNumber,
+        string $streetOrPropertyName,
+        string $suburbOrTown = null,
         string $region = null
-    ) : array
+    ): array
     {
         $data = $this->getRequest("/ICPConnectionData/search/", [
             'unitOrNumber' => $unitOrNumber,
@@ -69,12 +74,12 @@ class Client extends BaseClient
             'region' => $region
         ]);
 
-        $icps = [];
+        $icpList = [];
 
         foreach ($data as $icpData) {
-            $icps[] = new ICPResult($icpData);
+            $icpList[] = new ICPResult($icpData);
         }
 
-        return $icps;
+        return $icpList;
     }
 }

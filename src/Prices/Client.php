@@ -2,6 +2,9 @@
 
 namespace OurEnergy\EMI\Prices;
 
+use GuzzleHttp\Exception\GuzzleException;
+use OurEnergy\EMI\Exceptions\InvalidResponse;
+use OurEnergy\EMI\Exceptions\InvalidFilter;
 use OurEnergy\EMI\BaseClient;
 use \DateTime;
 
@@ -9,11 +12,20 @@ class Client extends BaseClient
 {
     const PATH = "/rtp/";
 
-    public function getPrices(DateTime $dateFrom, DateTime $dateTo = null) : array
+    /**
+     * @param DateTime|null $dateFrom
+     * @param DateTime|null $dateTo
+     *
+     * @return array
+     * @throws GuzzleException
+     * @throws InvalidFilter
+     * @throws InvalidResponse
+     */
+    public function getPrices(DateTime $dateFrom = null, DateTime $dateTo = null): array
     {
         if (!is_null($dateFrom) || !is_null($dateTo)) {
             if (!($dateFrom instanceof Datetime && $dateTo instanceof DateTime)) {
-                throw new \Exception("Both dateFrom and dateTo must be supplied");
+                throw new InvalidFilter("Both dateFrom and dateTo must be supplied");
             }
         }
 
@@ -29,11 +41,18 @@ class Client extends BaseClient
         $data = $this->getRequest(self::PATH, [
             '$filter' => $filter
         ]);
-        
+
         return $data;
     }
 
-    public function subscribe(string $name, string $url)
+    /**
+     * @param string $name
+     * @param string $url
+     *
+     * @throws GuzzleException
+     * @throws InvalidResponse
+     */
+    public function subscribe(string $name, string $url): void
     {
         $this->postRequest(self::PATH, [
             'name' => $name,
@@ -41,12 +60,23 @@ class Client extends BaseClient
         ]);
     }
 
-    public function unsubscribe(string $url)
+    /**
+     * @param string $url
+     *
+     * @throws GuzzleException
+     * @throws InvalidResponse
+     */
+    public function unsubscribe(string $url): void
     {
-        return $this->deleteRequest(self::PATH, sprintf('"%s"', $url));
+        $this->deleteRequest(self::PATH, sprintf('"%s"', $url));
     }
 
-    public function getSubscriptions()
+    /**
+     * @return array
+     * @throws GuzzleException
+     * @throws InvalidResponse
+     */
+    public function getSubscriptions(): array
     {
         return $this->optionsRequest(self::PATH);
     }

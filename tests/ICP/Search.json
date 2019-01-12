@@ -1,0 +1,34 @@
+[
+    {
+        "Address": {
+            "PhysicalAddressUnit": "",
+            "PhysicalAddressNumber": "260",
+            "PhysicalAddressStreet": "TINAKORI ROAD",
+            "PhysicalAddressSuburb": "THORNDON",
+            "PhysicalAddressTown": "WELLINGTON",
+            "PhysicalAddressRegion": "Wellington",
+            "PhysicalAddressPostCode": 6011,
+            "GPS_Easting": 0.0,
+            "GPS_Northing": 0.0
+        },
+        "ICPIdentifier": "0000120725TR687",
+        "ICPStatus": 2,
+        "Messages": null
+    },
+    {
+        "Address": {
+            "PhysicalAddressUnit": "",
+            "PhysicalAddressNumber": "160",
+            "PhysicalAddressStreet": "TINAKORI ROAD",
+            "PhysicalAddressSuburb": "THORNDON",
+            "PhysicalAddressTown": "WELLINGTON",
+            "PhysicalAddressRegion": "Wellington",
+            "PhysicalAddressPostCode": 6011,
+            "GPS_Easting": 0.0,
+            "GPS_Northing": 0.0
+        },
+        "ICPIdentifier": "0000143772TR3FD",
+        "ICPStatus": 2,
+        "Messages": null
+    }
+]

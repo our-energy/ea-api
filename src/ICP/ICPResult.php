@@ -4,6 +4,14 @@ namespace OurEnergy\EMI\ICP;
 
 /**
  * Represents an ICP object from the API response
+ *
+ * @property-read string ICPIdentifier
+ * @property-read string ICPStatus
+ * @property-read array Address
+ * @property-read array Network
+ * @property-read array Pricing
+ * @property-read array Trader
+ * @property-read array Metering
  */
 class ICPResult
 {
@@ -21,74 +29,14 @@ class ICPResult
     }
 
     /**
-     * @return array
-     */
-    public function getAddress() : array
-    {
-        return $this->getData('Address');
-    }
-
-    /**
-     * @return array
-     */
-    public function getNetwork() : array
-    {
-        return $this->getData('Network');
-    }
-
-    /**
-     * @return array
-     */
-    public function getPricing() : array
-    {
-        return $this->getData('Pricing');
-    }
-
-    /**
-     * @return array
-     */
-    public function getTrader() : array
-    {
-        return $this->getData('Trader');
-    }
-
-    /**
-     * @return array
-     */
-    public function getMetering() : array
-    {
-        return $this->getData('Metering');
-    }
-
-    /**
-     * @return string
-     */
-    public function getICPIdentifier() : string
-    {
-        return $this->getData('ICPIdentifier', null);
-    }
-
-    /**
-     * @return string
-     */
-    public function getICPStatus() : string
-    {
-        return $this->getData('ICPStatus', null);
-    }
-    
-    /**
-     * Fetch a field from the data array
-     *
      * @param string $name
-     * @param array $default
+     *
      * @return mixed
      */
-    private function getData(string $name, $default = [])
+    public function __get(string $name)
     {
         if (isset($this->data[$name])) {
             return $this->data[$name];
         }
-
-        return $default;
     }
 }

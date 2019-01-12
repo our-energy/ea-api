@@ -2,12 +2,11 @@
 
 namespace OurEnergy\EMI\Tests;
 
-use PHPUnit\Framework\TestCase;
 use OurEnergy\EMI\ICP\ICPResult;
 
-class ICPResultTest extends TestCase
+class ICPResultTest extends BaseTestCase
 {
-    public function testICPIdentifier()
+    public function testICPIdentifier(): void
     {
         $data = [
             'ICPIdentifier' => '1234'
@@ -15,6 +14,6 @@ class ICPResultTest extends TestCase
 
         $icp = new ICPResult($data);
 
-        $this->assertEquals($icp->getICPIdentifier(), '1234');
+        $this->assertEquals('1234', $icp->ICPIdentifier);
     }
 }
