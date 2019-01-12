@@ -2,6 +2,7 @@
     "name": "ourenergy/ea-api",
     "description": "A wrapper for the Electricity Authority's Electricity Market Information API",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andrew Joll",
