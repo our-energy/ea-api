@@ -9,6 +9,7 @@ use DateTime;
  *
  * @property-read DateTime interval
  * @property-read string interval_datetime
+ * @property-read string grid_point
  * @property-read int five_min_period
  * @property-read bool is_daylight_savings
  * @property-read double load
@@ -34,6 +35,11 @@ class PriceResult
      * @var string
      */
     public $interval_datetime;
+
+    /**
+     * @var string
+     */
+    public $grid_point;
 
     /**
      * @var int
