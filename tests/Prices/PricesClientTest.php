@@ -1,10 +1,11 @@
 <?php
 
-namespace OurEnergy\EMI\Tests;
+namespace EMI\Tests;
 
 use GuzzleHttp\Exception\ClientException;
-use OurEnergy\EMI\Prices\Client;
-use OurEnergy\EMI\Exceptions\InvalidFilter;
+use EMI\Prices\Client;
+use EMI\Exceptions\InvalidFilter;
+use EMI\Prices\PriceResult;
 use \DateTime;
 
 class PricesClientTest extends BaseTestCase
@@ -31,6 +32,11 @@ class PricesClientTest extends BaseTestCase
         $prices = $client->getPrices();
 
         $this->assertEquals(4, count($prices));
+
+        foreach ($prices as $price) {
+            $this->assertInstanceOf(PriceResult::class, $price);
+            $this->assertIsNumeric($price->price);
+        }
     }
 
     public function testGetSubscriptions(): void

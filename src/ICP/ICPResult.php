@@ -1,6 +1,6 @@
 <?php
 
-namespace OurEnergy\EMI\ICP;
+namespace EMI\ICP;
 
 /**
  * Represents an ICP object from the API response

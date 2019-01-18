@@ -1,11 +1,11 @@
 <?php
 
-namespace OurEnergy\EMI\Prices;
+namespace EMI\Prices;
 
 use GuzzleHttp\Exception\GuzzleException;
-use OurEnergy\EMI\Exceptions\InvalidResponse;
-use OurEnergy\EMI\Exceptions\InvalidFilter;
-use OurEnergy\EMI\BaseClient;
+use EMI\Exceptions\InvalidResponse;
+use EMI\Exceptions\InvalidFilter;
+use EMI\BaseClient;
 use \DateTime;
 
 class Client extends BaseClient
@@ -42,7 +42,13 @@ class Client extends BaseClient
             '$filter' => $filter
         ]);
 
-        return $data;
+        $priceList = [];
+
+        foreach ($data as $priceData) {
+            $priceList[] = new PriceResult($priceData);
+        }
+
+        return $priceList;
     }
 
     /**

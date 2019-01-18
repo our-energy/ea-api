@@ -1,8 +1,8 @@
 <?php
 
-namespace OurEnergy\EMI\Tests;
+namespace EMI\Tests;
 
-use OurEnergy\EMI\ICP\ICPResult;
+use EMI\ICP\ICPResult;
 
 class ICPResultTest extends BaseTestCase
 {

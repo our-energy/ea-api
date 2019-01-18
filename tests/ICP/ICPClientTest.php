@@ -1,8 +1,9 @@
 <?php
 
-namespace OurEnergy\EMI\Tests;
+namespace EMI\Tests;
 
-use OurEnergy\EMI\ICP\Client;
+use EMI\ICP\Client;
+use EMI\ICP\ICPResult;
 
 class ICPClientTest extends BaseTestCase
 {
@@ -31,6 +32,10 @@ class ICPClientTest extends BaseTestCase
         ]);
 
         $this->assertEquals(2, count($icpList));
+
+        foreach ($icpList as $icp) {
+            $this->assertInstanceOf(ICPResult::class, $icp);
+        }
 
         $this->assertEquals('0000120725TR687', $icpList[0]->ICPIdentifier);
         $this->assertEquals('0000143772TR3FD', $icpList[1]->ICPIdentifier);

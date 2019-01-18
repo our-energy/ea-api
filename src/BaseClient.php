@@ -1,11 +1,11 @@
 <?php
 
-namespace OurEnergy\EMI;
+namespace EMI;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\HandlerStack;
-use OurEnergy\EMI\Exceptions\InvalidResponse;
+use EMI\Exceptions\InvalidResponse;
 
 abstract class BaseClient
 {

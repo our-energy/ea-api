@@ -1,6 +1,6 @@
 <?php
 
-namespace OurEnergy\EMI\Tests;
+namespace EMI\Tests;
 
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;

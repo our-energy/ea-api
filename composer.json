@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OurEnergy\\EMI\\": "src/"
+            "EMI\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OurEnergy\\EMI\\Tests\\": "tests/"
+            "EMI\\Tests\\": "tests/"
         }
     }
 }

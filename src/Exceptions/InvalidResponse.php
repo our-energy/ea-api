@@ -1,5 +1,5 @@
 <?php
 
-namespace OurEnergy\EMI\Exceptions;
+namespace EMI\Exceptions;
 
 class InvalidResponse extends \Exception {}

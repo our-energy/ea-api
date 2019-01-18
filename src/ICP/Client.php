@@ -1,9 +1,9 @@
 <?php
 
-namespace OurEnergy\EMI\ICP;
+namespace EMI\ICP;
 
-use OurEnergy\EMI\BaseClient;
-use OurEnergy\EMI\Exceptions\InvalidResponse;
+use EMI\BaseClient;
+use EMI\Exceptions\InvalidResponse;
 use GuzzleHttp\Exception\GuzzleException;
 
 class Client extends BaseClient
