@@ -104,4 +104,52 @@ print_r($icpResults);
 
 ## Real-time dispatch
 
-TODO
+Retrieves five-minute dispatch data.
+
+### Get the latest dispatch
+
+```php
+$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
+
+$dispatch = $client->getDispatch();
+
+print_r($dispatch);
+```
+
+### Get dispatch within a date range
+
+```php
+$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
+
+$dispatch = $client->getDispatch(
+    new DateTime("2019-01-01 00:00:00"),
+    new DateTime("2019-01-01 00:30:00")
+);
+
+print_r($dispatch);
+```
+
+### Subscribe to push updates
+
+```php
+$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
+
+$client->subscribe("[YOUR SERVICE NAME]", "[YOUR CALLBACK URL]");
+```
+
+### Unsubscribe from push updates
+
+```php
+$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
+
+$client->unsubscribe("[YOUR CALLBACK URL]");
+```
+### Get a list of current subscriptions
+
+```php
+$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
+
+$subscriptions = $client->getSubscriptions();
+
+print_r($subscriptions);
+```
