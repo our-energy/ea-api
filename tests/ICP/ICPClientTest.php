@@ -16,7 +16,7 @@ class ICPClientTest extends BaseTestCase
 
         $icp = $client->getICPConnectionData('0000120725TR687');
 
-        $this->assertEquals('0000120725TR687', $icp->ICPIdentifier);
+        $this->assertEquals('0000120725TR687', $icp->identifier);
     }
 
     public function testGetICPDataList(): void
@@ -33,12 +33,13 @@ class ICPClientTest extends BaseTestCase
 
         $this->assertEquals(2, count($icpList));
 
+        /** @var ICPResult $icp */
         foreach ($icpList as $icp) {
             $this->assertInstanceOf(ICPResult::class, $icp);
         }
 
-        $this->assertEquals('0000120725TR687', $icpList[0]->ICPIdentifier);
-        $this->assertEquals('0000143772TR3FD', $icpList[1]->ICPIdentifier);
+        $this->assertEquals('0000120725TR687', $icpList[0]->identifier);
+        $this->assertEquals('0000143772TR3FD', $icpList[1]->identifier);
     }
 
     public function testGetICPSearchResults(): void
@@ -52,6 +53,6 @@ class ICPClientTest extends BaseTestCase
 
         $this->assertEquals(2, count($icpList));
 
-        $this->assertEquals('WELLINGTON', $icpList[0]->Address['PhysicalAddressTown']);
+        $this->assertEquals('WELLINGTON', $icpList[0]->address['PhysicalAddressTown']);
     }
 }

@@ -1,0 +1,42 @@
+[
+    {
+        "interval": "11-JAN-2019 23:20",
+        "interval_datetime": "2019-01-11T23:20:00",
+        "five_min_period": 5,
+        "isDayLightSavingHR": 0,
+        "pnode": "ABY0111",
+        "load": 2.876,
+        "generation": 0.000,
+        "price": 137.36
+    },
+    {
+        "interval": "11-JAN-2019 23:20",
+        "interval_datetime": "2019-01-11T23:20:00",
+        "five_min_period": 5,
+        "isDayLightSavingHR": 0,
+        "pnode": "ALB0331",
+        "load": 59.115,
+        "generation": 0.000,
+        "price": 146.22
+    },
+    {
+        "interval": "11-JAN-2019 23:20",
+        "interval_datetime": "2019-01-11T23:20:00",
+        "five_min_period": 5,
+        "isDayLightSavingHR": 0,
+        "pnode": "ALB1101",
+        "load": 14.741,
+        "generation": 0.000,
+        "price": 145.98
+    },
+    {
+        "interval": "11-JAN-2019 23:20",
+        "interval_datetime": "2019-01-11T23:20:00",
+        "five_min_period": 5,
+        "isDayLightSavingHR": 0,
+        "pnode": "APS0111",
+        "load": 0.250,
+        "generation": 0.000,
+        "price": 145.77
+    }
+]

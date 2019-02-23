@@ -14,6 +14,6 @@ class ICPResultTest extends BaseTestCase
 
         $icp = new ICPResult($data);
 
-        $this->assertEquals('1234', $icp->ICPIdentifier);
+        $this->assertEquals('1234', $icp->identifier);
     }
 }

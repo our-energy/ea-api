@@ -3,12 +3,12 @@
 namespace EMI\Tests;
 
 use GuzzleHttp\Exception\ClientException;
-use EMI\Prices\Client;
+use EMI\Dispatch\Client;
 use EMI\Exceptions\InvalidFilter;
 use EMI\Prices\PriceResult;
 use \DateTime;
 
-class PricesClientTest extends BaseTestCase
+class DispatchClientTest extends BaseTestCase
 {
     public function testInvalidFilter(): void
     {
@@ -16,28 +16,26 @@ class PricesClientTest extends BaseTestCase
 
         $client = new Client(self::SUBSCRIPTION_KEY);
 
-        $client->getPrices(
+        $client->getDispatch(
             null,
             new DateTime('2019-01-01 00:00:00')
         );
     }
 
-    public function testGetPrices(): void
+    public function testGetDispatch(): void
     {
         $client = new Client(
             self::SUBSCRIPTION_KEY,
-            $this->getMockResponseHandler(file_get_contents(__DIR__ . '/GetPrices.json'))
+            $this->getMockResponseHandler(file_get_contents(__DIR__ . '/GetDispatch.json'))
         );
 
-        $prices = $client->getPrices();
+        $prices = $client->getDispatch();
 
         $this->assertEquals(4, count($prices));
 
-        /** @var PriceResult $price */
         foreach ($prices as $price) {
             $this->assertInstanceOf(PriceResult::class, $price);
             $this->assertIsNumeric($price->price);
-            $this->assertInstanceOf(DateTime::class, $price->interval);
         }
     }
 

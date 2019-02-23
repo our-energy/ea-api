@@ -7,24 +7,27 @@ use DateTime;
 /**
  * Represents a 5-minute price from the API
  *
- * @property-read DateTime interval
- * @property-read string interval_datetime
- * @property-read string grid_point
- * @property-read int five_min_period
- * @property-read bool is_daylight_savings
- * @property-read double load
- * @property-read double generation
- * @property-read double price
+ * @package EMI\Prices
  */
 class PriceResult
 {
     /**
+     * Map fields to camel case and rename for clarity
+     *
      * @var array
      */
     private static $fieldMap = [
-        'isDayLightSavingHR' => 'is_daylight_savings',
-        'pnode' => 'grid_point'
+        'interval_datetime' => 'interval',
+        'isDayLightSavingHR' => 'isDaylightSavings',
+        'pnode' => 'gridPoint',
+        'five_min_period' => 'fiveMinutePeriod',
+        'Runtime' => 'runtime'
     ];
+
+    /**
+     * @var DateTime
+     */
+    public $runtime;
 
     /**
      * @var DateTime
@@ -34,35 +37,30 @@ class PriceResult
     /**
      * @var string
      */
-    public $interval_datetime;
-
-    /**
-     * @var string
-     */
-    public $grid_point;
+    public $gridPoint;
 
     /**
      * @var int
      */
-    public $five_min_period;
+    public $fiveMinutePeriod;
 
     /**
      * @var bool
      */
-    public $is_daylight_savings;
+    public $isDaylightSavings;
 
     /**
-     * @var double
+     * @var float
      */
     public $load;
 
     /**
-     * @var double
+     * @var float
      */
     public $generation;
 
     /**
-     * @var double
+     * @var float
      */
     public $price;
 
@@ -80,9 +78,16 @@ class PriceResult
         }
 
         try {
-            $this->interval = new DateTime($this->interval_datetime);
+            $this->interval = new DateTime($this->interval);
         } catch (\Exception $e) {
             $this->interval = null;
+        }
+
+        if (!is_null($this->runtime)) {
+            try {
+                $this->runtime = new DateTime($this->runtime);
+            } catch (\Exception $e) {
+            }
         }
     }
 }

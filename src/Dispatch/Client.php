@@ -1,21 +1,22 @@
 <?php
 
-namespace EMI\Prices;
+namespace EMI\Dispatch;
 
+use EMI\BaseClient;
+use EMI\Prices\PriceResult;
+use EMI\Exceptions\InvalidFilter;
 use GuzzleHttp\Exception\GuzzleException;
 use EMI\Exceptions\InvalidResponse;
-use EMI\Exceptions\InvalidFilter;
-use EMI\BaseClient;
 use \DateTime;
 
 /**
  * Class Client
  *
- * @package EMI\Prices
+ * @package EMI\Dispatch
  */
 class Client extends BaseClient
 {
-    const PATH = "/rtp/";
+    const PATH = "/rtd/";
 
     /**
      * @param DateTime|null $dateFrom
@@ -26,7 +27,7 @@ class Client extends BaseClient
      * @throws InvalidFilter
      * @throws InvalidResponse
      */
-    public function getPrices(DateTime $dateFrom = null, DateTime $dateTo = null): array
+    public function getDispatch(DateTime $dateFrom = null, DateTime $dateTo = null): array
     {
         if (!is_null($dateFrom) || !is_null($dateTo)) {
             if (!($dateFrom instanceof Datetime && $dateTo instanceof DateTime)) {

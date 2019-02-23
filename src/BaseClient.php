@@ -122,7 +122,7 @@ abstract class BaseClient
         // Parse the response
         $data = (string)$response->getBody();
 
-        if (strlen($data)) {
+        if (strlen($data) > 0) {
             $data = json_decode($data, true);
 
             if (!is_array($data)) {

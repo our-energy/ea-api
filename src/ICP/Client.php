@@ -6,6 +6,11 @@ use EMI\BaseClient;
 use EMI\Exceptions\InvalidResponse;
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * Class Client
+ *
+ * @package EMI\ICP
+ */
 class Client extends BaseClient
 {
     /**
@@ -41,11 +46,9 @@ class Client extends BaseClient
             'ids' => $icpNumbers
         ]);
 
-        $icpList = [];
-
-        foreach ($data as $icpData) {
-            $icpList[] = new ICPResult($icpData);
-        }
+        $icpList = array_map(function (array $item) {
+            return new ICPResult($item);
+        }, $data);
 
         return $icpList;
     }
@@ -74,11 +77,9 @@ class Client extends BaseClient
             'region' => $region
         ]);
 
-        $icpList = [];
-
-        foreach ($data as $icpData) {
-            $icpList[] = new ICPResult($icpData);
-        }
+        $icpList = array_map(function (array $item) {
+            return new ICPResult($item);
+        }, $data);
 
         return $icpList;
     }

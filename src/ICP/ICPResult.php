@@ -5,38 +5,59 @@ namespace EMI\ICP;
 /**
  * Represents an ICP object from the API response
  *
- * @property-read string ICPIdentifier
- * @property-read string ICPStatus
- * @property-read array Address
- * @property-read array Network
- * @property-read array Pricing
- * @property-read array Trader
- * @property-read array Metering
+ * @package EMI\ICP
  */
 class ICPResult
 {
-    /**
-     * @var array
-     */
-    private $data;
+    /** @var string */
+    public $identifier;
+
+    /** @var string */
+    public $status;
+
+    /** @var array */
+    public $address;
+
+    /** @var array */
+    public $network;
+
+    /** @var array */
+    public $pricing;
+
+    /** @var array */
+    public $trader;
+
+    /** @var array */
+    public $metering;
 
     /**
+     * Map fields to camel case and rename for clarity
+     *
+     * @var array
+     */
+    private static $fieldMap = [
+        'ICPIdentifier' => 'identifier',
+        'ICPStatus' => 'status',
+        'Address' => 'address',
+        'Network' => 'network',
+        'Pricing' => 'pricing',
+        'Trader' => 'trader',
+        'Metering' => 'metering'
+    ];
+
+    /**
+     * ICPResult constructor.
+     *
      * @param array $data
      */
     public function __construct(array $data)
     {
-        $this->data = $data;
-    }
+        foreach ($data as $key => $value) {
+            if (isset(self::$fieldMap[$key])) {
+                $key = self::$fieldMap[$key];
+            }
 
-    /**
-     * @param string $name
-     *
-     * @return mixed
-     */
-    public function __get(string $name)
-    {
-        if (isset($this->data[$name])) {
-            return $this->data[$name];
+            $this->$key = $value;
         }
     }
 }
