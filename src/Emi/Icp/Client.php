@@ -6,6 +6,7 @@ namespace OurEnergy\Emi\Icp;
 
 use OurEnergy\Emi\BaseClient;
 use Psr\Http\Client\ClientExceptionInterface;
+use OurEnergy\Emi\Icp\Factories\IcpFactory;
 
 class Client extends BaseClient
 {

@@ -1,8 +1,9 @@
 <?php
 
-namespace OurEnergy\Emi\Icp;
+namespace OurEnergy\Emi\Icp\Factories;
 
 use OurEnergy\Emi\BaseFactory;
+use OurEnergy\Emi\Icp\Pricing;
 
 class PricingFactory extends BaseFactory
 {

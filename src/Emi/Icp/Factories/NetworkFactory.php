@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
-namespace OurEnergy\Emi\Icp;
+namespace OurEnergy\Emi\Icp\Factories;
 
 use DateTime;
 use DateTimeZone;
 use Exception;
 use OurEnergy\Emi\BaseFactory;
+use OurEnergy\Emi\Icp\Network;
 
 class NetworkFactory extends BaseFactory
 {

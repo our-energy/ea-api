@@ -6,6 +6,7 @@ use \DateTime;
 use \Exception;
 use OurEnergy\Emi\Exception\InvalidFilter;
 use OurEnergy\Emi\Prices\Client;
+use OurEnergy\Emi\Prices\Price;
 use OurEnergy\Emi\Tests\BaseTestCase;
 
 class ClientTest extends BaseTestCase
@@ -43,7 +44,17 @@ class ClientTest extends BaseTestCase
 
         $prices = $client->getPrices();
 
+        /** @var Price $price */
+        $price = $prices[0];
+
         $this->assertCount(246, $prices);
+
+        $this->assertEquals(1, $price->getFiveMinutePeriod());
+        $this->assertFalse($price->isDaylightSavingsHour());
+        $this->assertEquals("ABY0111", $price->getNode());
+        $this->assertEquals(2.368, $price->getLoad());
+        $this->assertEquals(0, $price->getGeneration());
+        $this->assertEquals(194.55, $price->getPrice());
     }
 
     public function testGetSubscriptions(): void
@@ -55,8 +66,9 @@ class ClientTest extends BaseTestCase
         $subscriptions = $client->getSubscriptions();
 
         $this->assertCount(2, $subscriptions);
-        $this->assertEquals("https://someurl/", $subscriptions[0]["SubscribedUrl"]);
-        $this->assertEquals("https://someotherurl/", $subscriptions[1]["SubscribedUrl"]);
+        $this->assertEquals("https://someurl/", $subscriptions[0]->getUrl());
+        $this->assertEquals("2019-01-12", $subscriptions[0]->getDate()->format("Y-m-d"));
+        $this->assertEquals("https://someotherurl/", $subscriptions[1]->getUrl());
     }
 
     public function testSubscribe(): void

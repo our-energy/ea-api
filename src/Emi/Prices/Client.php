@@ -8,16 +8,18 @@ use DateTimeInterface;
 use Exception;
 use OurEnergy\Emi\BaseClient;
 use OurEnergy\Emi\Exception\InvalidFilter;
+use OurEnergy\Emi\Prices\Factories\PriceFactory;
+use OurEnergy\Emi\Prices\Factories\SubscriptionFactory;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
 
 class Client extends BaseClient
 {
-    /** @var string */
-    protected $type;
-
     // Real-time Prices or Real-time Dispatch
     const ALLOWED_TYPES = ["rtp", "rtd"];
+
+    /** @var string */
+    protected $type;
 
     /**
      * Client constructor.
@@ -94,14 +96,16 @@ class Client extends BaseClient
     }
 
     /**
-     * @return array
+     * @return Subscription[]
      * @throws ClientExceptionInterface
      */
     public function getSubscriptions(): array
     {
         $this->request("options", $this->type);
 
-        return $this->parseBody($this->response);
+        $data = $this->parseBody($this->response);
+
+        return SubscriptionFactory::collection($data);
     }
 
     /**

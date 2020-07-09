@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace OurEnergy\Emi\Icp;
+namespace OurEnergy\Emi\Icp\Factories;
 
 use OurEnergy\Emi\BaseFactory;
+use OurEnergy\Emi\Icp\Channel;
 
 class ChannelFactory extends BaseFactory
 {

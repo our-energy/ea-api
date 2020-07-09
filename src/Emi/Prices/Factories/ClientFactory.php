@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace OurEnergy\Emi\Prices;
+namespace OurEnergy\Emi\Prices\Factories;
 
 use Exception;
 use Psr\Http\Client\ClientInterface;
 use Http\Discovery\Psr18ClientDiscovery;
+use OurEnergy\Emi\Prices\Client;
 
 class ClientFactory
 {

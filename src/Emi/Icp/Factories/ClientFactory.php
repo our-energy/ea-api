@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace OurEnergy\Emi\Icp;
+namespace OurEnergy\Emi\Icp\Factories;
 
 use Psr\Http\Client\ClientInterface;
 use Http\Discovery\Psr18ClientDiscovery;
+use OurEnergy\Emi\Icp\Client;
 
 class ClientFactory
 {

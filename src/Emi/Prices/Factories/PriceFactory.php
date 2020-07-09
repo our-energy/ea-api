@@ -2,18 +2,16 @@
 
 declare(strict_types=1);
 
-namespace OurEnergy\Emi\Prices;
+namespace OurEnergy\Emi\Prices\Factories;
 
 use DateTime;
 use DateTimeZone;
 use Exception;
 use OurEnergy\Emi\BaseFactory;
+use OurEnergy\Emi\Prices\Price;
 
 class PriceFactory extends BaseFactory
 {
-    // Prices will always be in New Zealand time
-    const TIMEZONE = "Pacific/Auckland";
-
     protected static $fieldMap = [
         'interval_datetime' => 'interval',
         'five_min_period' => 'fiveMinutePeriod',
