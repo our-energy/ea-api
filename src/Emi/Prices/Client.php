@@ -47,7 +47,7 @@ class Client extends BaseClient
      * @param DateTimeInterface|null $start
      * @param DateTimeInterface|null $end
      *
-     * @return array
+     * @return Price[]
      * @throws ClientExceptionInterface
      * @throws InvalidFilter
      * @throws Exception

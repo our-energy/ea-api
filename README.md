@@ -7,59 +7,63 @@ A PHP wrapper for the [Electricity Authority's EMI API](https://emi.portal.azure
 
 You must have an active subscription key for the API you wish you use.
 
+Requires a valid HTTPlug-compatible client, like [php-http/guzzle6-adapter](https://github.com/php-http/guzzle6-adapter).
+
 ## Installation
 
 ```
 composer require ourenergy/ea-api
 ```
 
-## Real-time prices
+## Prices
 
-Retrieves five-minute pricing data.
+Retrieves five-minute pricing data. Client type can be one of the following;
+
+* `rtp` - Real-time prices
+* `rtd` - Real-time dispatch
 
 ### Get the latest prices
 
 ```php
-$client = new EMI\Prices\Client("[YOUR SUBSCRIPTION KEY]");
+use OurEnergy\Emi\Prices\Factories\ClientFactory;
 
-$spotPrices = $client->getPrices();
+$subscriptionKey = "your subscription key";
 
-print_r($spotPrices);
+$client = ClientFactory::create("rtp", $subscriptionKey);
+
+$prices = $client->getPrices();
+
+print_r($prices);
 ```
 
 ### Get prices within a date range
 
 ```php
-$client = new EMI\Prices\Client("[YOUR SUBSCRIPTION KEY]");
-
-$spotPrices = $client->getPrices(
+$prices = $client->getPrices(
     new DateTime("2019-01-01 00:00:00"),
     new DateTime("2019-01-01 00:30:00")
 );
 
-print_r($spotPrices);
+print_r($prices);
 ```
 
 ### Subscribe to push updates
 
 ```php
-$client = new EMI\Prices\Client("[YOUR SUBSCRIPTION KEY]");
+$serviceName = "Your service";
+$callbackUrl = "http://yourwebsite.com";
 
-$client->subscribe("[YOUR SERVICE NAME]", "[YOUR CALLBACK URL]");
+$client->subscribe($serviceName, $callbackUrl);
 ```
 
 ### Unsubscribe from push updates
 
 ```php
-$client = new EMI\Prices\Client("[YOUR SUBSCRIPTION KEY]");
-
-$client->unsubscribe("[YOUR CALLBACK URL]");
+$client->unsubscribe($callbackUrl);
 ```
 ### Get a list of current subscriptions
 
 ```php
-$client = new EMI\Prices\Client("[YOUR SUBSCRIPTION KEY]");
-
 $subscriptions = $client->getSubscriptions();
 
 print_r($subscriptions);
@@ -72,84 +76,33 @@ Provides methods to get data on Installation Control Points.
 ### Look up an ICP number
 
 ```php
-$client = new EMI\ICP\Client("[YOUR SUBSCRIPTION KEY]");
+use OurEnergy\Emi\Icp\Factories\ClientFactory;
 
-$icp = $client->getICPConnectionData("0000143418TRD9F");
+$subscriptionKey = "your subscription key";
 
-echo $icp->Pricing["DistributorPriceCategoryCode"] . PHP_EOL;
+$client = ClientFactory::create($subscriptionKey);
+
+$icp = $client->getById("0000143418TRD9F");
+
+echo $icp->getNetwork()->getParticipantId();
 ```
 
 ### Look up a list of ICP numbers
 
 ```php
-$client = new EMI\ICP\Client("[YOUR SUBSCRIPTION KEY]");
-
-$icpResults = $client->getICPConnectionList([
+$icps = $client->getByIdList([
     "0000143418TRD9F",
     "0000130040TR3DB"
 ]);
 
-print_r($icpResults);
+print_r($icps);
 ```
 
 ### Search by address
 
 ```php
-$client = new EMI\ICP\Client("[YOUR SUBSCRIPTION KEY]");
+$icps = $client->search("260", "Tinakori");
 
-$icpResults = $client->getICPSearchResults("260", "Tinakori");
-
-print_r($icpResults);
+print_r($icps);
 ```
 
-## Real-time dispatch
-
-Retrieves five-minute dispatch data.
-
-### Get the latest dispatch
-
-```php
-$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
-
-$dispatch = $client->getDispatch();
-
-print_r($dispatch);
-```
-
-### Get dispatch within a date range
-
-```php
-$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
-
-$dispatch = $client->getDispatch(
-    new DateTime("2019-01-01 00:00:00"),
-    new DateTime("2019-01-01 00:30:00")
-);
-
-print_r($dispatch);
-```
-
-### Subscribe to push updates
-
-```php
-$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
-
-$client->subscribe("[YOUR SERVICE NAME]", "[YOUR CALLBACK URL]");
-```
-
-### Unsubscribe from push updates
-
-```php
-$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
-
-$client->unsubscribe("[YOUR CALLBACK URL]");
-```
-### Get a list of current subscriptions
-
-```php
-$client = new EMI\Dispatch\Client("[YOUR SUBSCRIPTION KEY]");
-
-$subscriptions = $client->getSubscriptions();
-
-print_r($subscriptions);
-```

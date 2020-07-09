@@ -44,17 +44,14 @@ class ClientTest extends BaseTestCase
 
         $prices = $client->getPrices();
 
-        /** @var Price $price */
-        $price = $prices[0];
-
         $this->assertCount(246, $prices);
 
-        $this->assertEquals(1, $price->getFiveMinutePeriod());
-        $this->assertFalse($price->isDaylightSavingsHour());
-        $this->assertEquals("ABY0111", $price->getNode());
-        $this->assertEquals(2.368, $price->getLoad());
-        $this->assertEquals(0, $price->getGeneration());
-        $this->assertEquals(194.55, $price->getPrice());
+        $this->assertEquals(1, $prices[0]->getFiveMinutePeriod());
+        $this->assertFalse($prices[0]->isDaylightSavingsHour());
+        $this->assertEquals("ABY0111", $prices[0]->getNode());
+        $this->assertEquals(2.368, $prices[0]->getLoad());
+        $this->assertEquals(0, $prices[0]->getGeneration());
+        $this->assertEquals(194.55, $prices[0]->getPrice());
     }
 
     public function testGetSubscriptions(): void
