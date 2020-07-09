@@ -1,42 +1,2462 @@
 [
     {
-        "interval": "11-JAN-2019 23:20",
-        "interval_datetime": "2019-01-11T23:20:00",
-        "five_min_period": 5,
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
         "isDayLightSavingHR": 0,
         "pnode": "ABY0111",
-        "load": 2.876,
+        "load": 2.368,
         "generation": 0.000,
-        "price": 137.36
+        "price": 194.55
     },
     {
-        "interval": "11-JAN-2019 23:20",
-        "interval_datetime": "2019-01-11T23:20:00",
-        "five_min_period": 5,
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
         "isDayLightSavingHR": 0,
         "pnode": "ALB0331",
-        "load": 59.115,
+        "load": 95.447,
         "generation": 0.000,
-        "price": 146.22
+        "price": 225.02
     },
     {
-        "interval": "11-JAN-2019 23:20",
-        "interval_datetime": "2019-01-11T23:20:00",
-        "five_min_period": 5,
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
         "isDayLightSavingHR": 0,
         "pnode": "ALB1101",
-        "load": 14.741,
+        "load": 43.397,
         "generation": 0.000,
-        "price": 145.98
+        "price": 224.40
     },
     {
-        "interval": "11-JAN-2019 23:20",
-        "interval_datetime": "2019-01-11T23:20:00",
-        "five_min_period": 5,
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
         "isDayLightSavingHR": 0,
         "pnode": "APS0111",
-        "load": 0.250,
+        "load": 0.419,
         "generation": 0.000,
-        "price": 145.77
+        "price": 209.47
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ARA2201 ARA0",
+        "load": 0.000,
+        "generation": 52.000,
+        "price": 207.65
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ARG1101 BRR0",
+        "load": 0.000,
+        "generation": 6.000,
+        "price": 223.62
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ARI1101 ARI0",
+        "load": 0.000,
+        "generation": 42.000,
+        "price": 210.91
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ARI1102 ARI0",
+        "load": 0.000,
+        "generation": 80.000,
+        "price": 210.91
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ASB0661",
+        "load": 47.499,
+        "generation": 0.000,
+        "price": 205.34
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ASB0661 HBK0",
+        "load": 0.000,
+        "generation": 18.000,
+        "price": 205.34
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ASY0111",
+        "load": 12.223,
+        "generation": 0.000,
+        "price": 219.59
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ATI2201",
+        "load": 0.320,
+        "generation": 0.000,
+        "price": 209.18
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ATI2201 ATI0",
+        "load": 0.000,
+        "generation": 54.000,
+        "price": 209.18
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ATU1101",
+        "load": 0.800,
+        "generation": 0.000,
+        "price": 225.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "AVI2201 AVI0",
+        "load": 0.000,
+        "generation": 185.401,
+        "price": 196.62
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BAL0331",
+        "load": 21.259,
+        "generation": 0.000,
+        "price": 211.87
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BDE0111",
+        "load": 6.544,
+        "generation": 0.000,
+        "price": 209.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BEN2202 BEN0",
+        "load": 0.000,
+        "generation": 383.797,
+        "price": 196.91
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BLN0331",
+        "load": 54.536,
+        "generation": 0.000,
+        "price": 231.07
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BOB0331",
+        "load": 8.121,
+        "generation": 0.000,
+        "price": 226.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BOB1101",
+        "load": 55.631,
+        "generation": 0.000,
+        "price": 226.51
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BPD1101",
+        "load": 2.146,
+        "generation": 0.000,
+        "price": 202.76
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BPE0331",
+        "load": 66.151,
+        "generation": 0.000,
+        "price": 206.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BPE0331 TWF0",
+        "load": 0.000,
+        "generation": 9.615,
+        "price": 206.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BPE0551",
+        "load": 0.100,
+        "generation": 0.000,
+        "price": 205.75
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BPT1101",
+        "load": 0.200,
+        "generation": 0.000,
+        "price": 200.61
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BRB0331",
+        "load": 46.600,
+        "generation": 0.000,
+        "price": 231.44
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BRK0331",
+        "load": 16.971,
+        "generation": 0.000,
+        "price": 205.51
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BRY0661",
+        "load": 98.930,
+        "generation": 0.000,
+        "price": 210.02
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "BWK1101 WPI0",
+        "load": 0.000,
+        "generation": 7.000,
+        "price": 205.62
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CBG0111",
+        "load": 23.270,
+        "generation": 0.000,
+        "price": 216.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CLH0111",
+        "load": 0.334,
+        "generation": 0.000,
+        "price": 202.15
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CML0331",
+        "load": 30.617,
+        "generation": 0.000,
+        "price": 198.98
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "COL0661 COL0",
+        "load": 0.000,
+        "generation": 36.500,
+        "price": 197.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CPK0111",
+        "load": 15.707,
+        "generation": 0.000,
+        "price": 208.17
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CPK0331",
+        "load": 103.909,
+        "generation": 0.000,
+        "price": 207.27
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CST0331",
+        "load": 42.183,
+        "generation": 0.000,
+        "price": 195.90
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CUL0331",
+        "load": 4.966,
+        "generation": 0.000,
+        "price": 213.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CUL0661",
+        "load": 3.682,
+        "generation": 0.000,
+        "price": 214.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CYD0331",
+        "load": -0.249,
+        "generation": 0.000,
+        "price": 198.24
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "CYD2201 CYD0",
+        "load": 0.000,
+        "generation": 210.000,
+        "price": 198.28
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "DOB0331",
+        "load": 3.748,
+        "generation": 0.000,
+        "price": 227.01
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "DVK0111",
+        "load": 9.316,
+        "generation": 0.000,
+        "price": 208.81
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "EDG0331",
+        "load": 40.914,
+        "generation": 0.000,
+        "price": 211.05
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "EDN0331",
+        "load": 5.945,
+        "generation": 0.000,
+        "price": 209.48
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "FHL0331",
+        "load": 38.757,
+        "generation": 0.000,
+        "price": 209.87
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "FKN0331",
+        "load": 56.097,
+        "generation": 0.000,
+        "price": 207.64
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GFD0331",
+        "load": 45.830,
+        "generation": 0.000,
+        "price": 206.24
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GLN0331",
+        "load": 105.752,
+        "generation": 0.000,
+        "price": 223.17
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GLN0332",
+        "load": 39.449,
+        "generation": 0.000,
+        "price": 222.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GLN0332 GLN0",
+        "load": 0.000,
+        "generation": 55.000,
+        "price": 222.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GOR0331",
+        "load": 20.335,
+        "generation": 0.000,
+        "price": 208.57
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GYM0661",
+        "load": 9.453,
+        "generation": 0.000,
+        "price": 226.85
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "GYT0331",
+        "load": 8.349,
+        "generation": 0.000,
+        "price": 209.72
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HAM0111",
+        "load": 16.100,
+        "generation": 0.000,
+        "price": 216.75
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HAM0331",
+        "load": 99.870,
+        "generation": 0.000,
+        "price": 217.72
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HAM0551",
+        "load": 0.030,
+        "generation": 0.000,
+        "price": 217.11
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HAY0111",
+        "load": 10.083,
+        "generation": 0.000,
+        "price": 205.86
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HAY0331",
+        "load": 10.109,
+        "generation": 0.000,
+        "price": 205.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HEN0331",
+        "load": 69.555,
+        "generation": 0.000,
+        "price": 225.14
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HEP0331",
+        "load": 90.446,
+        "generation": 0.000,
+        "price": 226.14
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HIN0331",
+        "load": 25.003,
+        "generation": 0.000,
+        "price": 219.86
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HKK0661",
+        "load": 4.187,
+        "generation": 0.000,
+        "price": 222.64
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HLY0331",
+        "load": 16.960,
+        "generation": 0.000,
+        "price": 217.14
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HLY2201",
+        "load": 11.778,
+        "generation": 0.000,
+        "price": 217.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HLY2201 HLY1",
+        "load": 0.000,
+        "generation": 240.000,
+        "price": 217.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HLY2201 HLY2",
+        "load": 0.000,
+        "generation": 230.000,
+        "price": 217.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HLY2201 HLY5",
+        "load": 0.000,
+        "generation": 200.000,
+        "price": 217.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HOB1101",
+        "load": 52.863,
+        "generation": 0.000,
+        "price": 223.77
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HOR0331",
+        "load": 5.133,
+        "generation": 0.000,
+        "price": 206.89
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HOR0661",
+        "load": 1.500,
+        "generation": 0.000,
+        "price": 206.66
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HTI0331",
+        "load": 12.781,
+        "generation": 0.000,
+        "price": 217.20
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HTI1101",
+        "load": 4.774,
+        "generation": 0.000,
+        "price": 216.43
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HUI0331",
+        "load": 11.032,
+        "generation": 0.000,
+        "price": 193.87
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA0331",
+        "load": 18.512,
+        "generation": 0.000,
+        "price": 184.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA0332",
+        "load": 0.641,
+        "generation": 0.000,
+        "price": 183.66
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA1101 PTA1",
+        "load": 0.000,
+        "generation": 9.000,
+        "price": 183.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA1101 PTA2",
+        "load": 0.000,
+        "generation": 9.000,
+        "price": 183.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA1101 PTA3",
+        "load": 0.000,
+        "generation": 9.000,
+        "price": 183.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWA1102 WAA0",
+        "load": 0.000,
+        "generation": 49.360,
+        "price": 183.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWB0331",
+        "load": 76.800,
+        "generation": 0.000,
+        "price": 203.38
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "HWB0331 MAH0",
+        "load": 0.000,
+        "generation": 0.040,
+        "price": 203.38
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "INV0331",
+        "load": 66.171,
+        "generation": 0.000,
+        "price": 209.13
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ISL0331",
+        "load": 55.270,
+        "generation": 0.000,
+        "price": 210.37
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ISL0661",
+        "load": 290.407,
+        "generation": 0.000,
+        "price": 210.65
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "JRD1101",
+        "load": 0.237,
+        "generation": 0.000,
+        "price": 194.75
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "JRD1101 JRD0",
+        "load": 0.000,
+        "generation": 49.200,
+        "price": 194.75
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAI0111",
+        "load": 18.501,
+        "generation": 0.000,
+        "price": 221.74
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW0111",
+        "load": 17.122,
+        "generation": 0.000,
+        "price": 208.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW0111 TAM0",
+        "load": 0.000,
+        "generation": 25.000,
+        "price": 208.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW0112",
+        "load": 28.632,
+        "generation": 0.000,
+        "price": 208.64
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW0112 ONU0",
+        "load": 0.000,
+        "generation": 25.000,
+        "price": 208.64
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW0113",
+        "load": 35.502,
+        "generation": 0.000,
+        "price": 209.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KAW1101 KAG0",
+        "load": 0.000,
+        "generation": 108.000,
+        "price": 208.52
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KBY0661",
+        "load": 1.430,
+        "generation": 0.000,
+        "price": 207.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KBY0662",
+        "load": 1.659,
+        "generation": 0.000,
+        "price": 207.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIK0111",
+        "load": 1.264,
+        "generation": 0.000,
+        "price": 219.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIN0111",
+        "load": 18.958,
+        "generation": 0.000,
+        "price": 217.63
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIN0112",
+        "load": 15.071,
+        "generation": 0.000,
+        "price": 215.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIN0112 KIN0",
+        "load": 0.000,
+        "generation": 35.331,
+        "price": 215.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIN0113",
+        "load": 34.611,
+        "generation": 0.000,
+        "price": 217.63
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KIN0331",
+        "load": 12.000,
+        "generation": 0.000,
+        "price": 216.41
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KMO0331",
+        "load": 8.813,
+        "generation": 0.000,
+        "price": 214.94
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KOE1101",
+        "load": 21.193,
+        "generation": 0.000,
+        "price": 236.88
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KPA1101 KPI1",
+        "load": 0.000,
+        "generation": 4.500,
+        "price": 200.35
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KPO1101 KPO0",
+        "load": 0.000,
+        "generation": 64.451,
+        "price": 214.97
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KPU0661",
+        "load": 27.494,
+        "generation": 0.000,
+        "price": 225.32
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KUM0661",
+        "load": 0.797,
+        "generation": 0.000,
+        "price": 222.83
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KUM0661 KUM0",
+        "load": 0.000,
+        "generation": 1.050,
+        "price": 222.83
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "KWA0111",
+        "load": 23.185,
+        "generation": 0.000,
+        "price": 206.69
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "LFD1101",
+        "load": 1.696,
+        "generation": 0.000,
+        "price": 212.69
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "LTN0331",
+        "load": 38.102,
+        "generation": 0.000,
+        "price": 205.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "LTN0331 TWF0",
+        "load": 0.000,
+        "generation": 9.793,
+        "price": 205.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MAN2201",
+        "load": 3.980,
+        "generation": 0.000,
+        "price": 203.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MAN2201 MAN0",
+        "load": 0.000,
+        "generation": 444.000,
+        "price": 203.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MAT1101",
+        "load": 4.255,
+        "generation": 0.000,
+        "price": 206.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MAT1101 ANI0",
+        "load": 0.000,
+        "generation": 12.500,
+        "price": 206.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MAT1101 MAT0",
+        "load": 0.000,
+        "generation": 32.783,
+        "price": 206.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MCH0111",
+        "load": 1.157,
+        "generation": 0.000,
+        "price": 221.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MGM0331",
+        "load": 5.694,
+        "generation": 0.000,
+        "price": 207.09
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MHO0331",
+        "load": 26.865,
+        "generation": 0.000,
+        "price": 206.42
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MHO0331 MHO0",
+        "load": 0.000,
+        "generation": 21.000,
+        "price": 206.42
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MKE1101 MKE1",
+        "load": 0.000,
+        "generation": 88.000,
+        "price": 186.45
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MLG0111",
+        "load": 17.897,
+        "generation": 0.000,
+        "price": 206.76
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MLG0331",
+        "load": 18.767,
+        "generation": 0.000,
+        "price": 206.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MNG0331",
+        "load": 84.382,
+        "generation": 0.000,
+        "price": 224.65
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MNG1101",
+        "load": 7.261,
+        "generation": 0.000,
+        "price": 223.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MNI0111",
+        "load": 7.600,
+        "generation": 0.000,
+        "price": 191.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MPE1101",
+        "load": 76.561,
+        "generation": 0.000,
+        "price": 235.23
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MST0331",
+        "load": 27.469,
+        "generation": 0.000,
+        "price": 209.68
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MTI2201 MTI0",
+        "load": 0.000,
+        "generation": 131.000,
+        "price": 209.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MTM0331",
+        "load": 36.087,
+        "generation": 0.000,
+        "price": 216.58
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MTN0331",
+        "load": 11.144,
+        "generation": 0.000,
+        "price": 204.77
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MTO0331",
+        "load": 10.641,
+        "generation": 0.000,
+        "price": 238.05
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "MTR0331",
+        "load": 5.363,
+        "generation": 0.000,
+        "price": 211.47
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NAP2201 NAP0",
+        "load": 0.000,
+        "generation": 135.000,
+        "price": 206.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NAP2202 NTM0",
+        "load": 0.000,
+        "generation": 86.000,
+        "price": 206.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NMA0331",
+        "load": 21.836,
+        "generation": 0.000,
+        "price": 208.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NMA0331 WHL0",
+        "load": 0.000,
+        "generation": 22.754,
+        "price": 208.04
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NPK0331",
+        "load": 2.592,
+        "generation": 0.000,
+        "price": 214.96
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NSY0331",
+        "load": 24.769,
+        "generation": 0.000,
+        "price": 198.94
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "NSY0331 PAE0",
+        "load": 0.000,
+        "generation": 9.000,
+        "price": 198.94
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OAM0331",
+        "load": 22.836,
+        "generation": 0.000,
+        "price": 206.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OHA2201 OHA0",
+        "load": 0.000,
+        "generation": 201.862,
+        "price": 196.88
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OHB2201 OHB0",
+        "load": 0.000,
+        "generation": 178.470,
+        "price": 197.05
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OHC2201 OHC0",
+        "load": 0.000,
+        "generation": 178.470,
+        "price": 196.68
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OHK2201 OHK0",
+        "load": 0.000,
+        "generation": 80.000,
+        "price": 208.66
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OKI2201",
+        "load": 0.590,
+        "generation": 0.000,
+        "price": 207.32
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OKI2201 OKI0",
+        "load": 0.000,
+        "generation": 39.000,
+        "price": 207.32
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OKN0111",
+        "load": 3.908,
+        "generation": 0.000,
+        "price": 213.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ONG0331",
+        "load": 0.915,
+        "generation": 0.000,
+        "price": 216.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OPK0331",
+        "load": 3.994,
+        "generation": 0.000,
+        "price": 201.49
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ORO1101",
+        "load": 2.741,
+        "generation": 0.000,
+        "price": 223.32
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ORO1102",
+        "load": 2.696,
+        "generation": 0.000,
+        "price": 223.63
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OTA0221",
+        "load": 44.151,
+        "generation": 0.000,
+        "price": 223.72
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OTI0111",
+        "load": 0.010,
+        "generation": 0.000,
+        "price": 211.16
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "OWH0111",
+        "load": 7.435,
+        "generation": 0.000,
+        "price": 213.11
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PAK0331",
+        "load": 94.528,
+        "generation": 0.000,
+        "price": 223.03
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PAO1101",
+        "load": 18.848,
+        "generation": 0.000,
+        "price": 220.18
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PEN0221",
+        "load": 36.836,
+        "generation": 0.000,
+        "price": 225.07
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PEN0251",
+        "load": 1.793,
+        "generation": 0.000,
+        "price": 223.52
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PEN0331",
+        "load": 186.223,
+        "generation": 0.000,
+        "price": 224.62
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PEN1101",
+        "load": 109.755,
+        "generation": 0.000,
+        "price": 223.77
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PNI0331",
+        "load": 8.951,
+        "generation": 0.000,
+        "price": 206.33
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "PRM0331",
+        "load": 38.687,
+        "generation": 0.000,
+        "price": 204.82
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "RDF0331",
+        "load": 34.485,
+        "generation": 0.000,
+        "price": 209.10
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "RFN1102",
+        "load": 1.759,
+        "generation": 0.000,
+        "price": 223.59
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROS0221",
+        "load": 60.035,
+        "generation": 0.000,
+        "price": 226.33
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROS1101",
+        "load": 31.393,
+        "generation": 0.000,
+        "price": 225.78
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROT0111",
+        "load": 13.623,
+        "generation": 0.000,
+        "price": 213.05
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROT0331",
+        "load": 28.397,
+        "generation": 0.000,
+        "price": 213.32
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROT1101 WHE0",
+        "load": 0.000,
+        "generation": 10.500,
+        "price": 212.54
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROX1101 ROX0",
+        "load": 0.000,
+        "generation": 39.010,
+        "price": 197.51
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "ROX2201 ROX0",
+        "load": 0.000,
+        "generation": 160.000,
+        "price": 198.74
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "RPO2201 RPO0",
+        "load": 0.000,
+        "generation": 60.000,
+        "price": 206.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SBK0331",
+        "load": 18.195,
+        "generation": 0.000,
+        "price": 219.30
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SBK0661",
+        "load": 7.580,
+        "generation": 0.000,
+        "price": 218.81
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SDN0331",
+        "load": 57.099,
+        "generation": 0.000,
+        "price": 203.69
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SFD0331",
+        "load": 11.992,
+        "generation": 0.000,
+        "price": 201.08
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SFD2201 SPL0",
+        "load": 0.000,
+        "generation": 330.000,
+        "price": 201.14
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "STK0331",
+        "load": 94.285,
+        "generation": 0.000,
+        "price": 222.49
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "STK0661",
+        "load": 17.992,
+        "generation": 0.000,
+        "price": 221.91
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "STK0661 COB0",
+        "load": 0.000,
+        "generation": 24.502,
+        "price": 221.91
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "STU0111",
+        "load": 6.800,
+        "generation": 0.000,
+        "price": 205.92
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SVL0331",
+        "load": 49.005,
+        "generation": 0.000,
+        "price": 225.01
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SWN0251",
+        "load": 3.190,
+        "generation": 0.000,
+        "price": 223.09
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "SWN2201",
+        "load": 1.174,
+        "generation": 0.000,
+        "price": 222.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TAK0331",
+        "load": 63.821,
+        "generation": 0.000,
+        "price": 222.58
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TGA0111",
+        "load": 15.324,
+        "generation": 0.000,
+        "price": 216.97
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TGA0331",
+        "load": 66.856,
+        "generation": 0.000,
+        "price": 216.33
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TGA0331 KMI0",
+        "load": 0.000,
+        "generation": 7.000,
+        "price": 216.33
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "THI2201 THI1",
+        "load": 0.000,
+        "generation": 80.000,
+        "price": 207.94
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "THI2201 THI2",
+        "load": 0.000,
+        "generation": 79.000,
+        "price": 207.94
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TIM0111",
+        "load": 49.473,
+        "generation": 0.000,
+        "price": 202.84
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TKA0111 TKA1",
+        "load": 0.000,
+        "generation": 27.000,
+        "price": 185.15
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TKA0331",
+        "load": 2.911,
+        "generation": 0.000,
+        "price": 185.71
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TKB2201 TKB1",
+        "load": 0.000,
+        "generation": 148.000,
+        "price": 197.65
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TKR0331",
+        "load": 57.787,
+        "generation": 0.000,
+        "price": 206.16
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TKU0331",
+        "load": 4.128,
+        "generation": 0.000,
+        "price": 209.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TMI0331",
+        "load": 35.213,
+        "generation": 0.000,
+        "price": 217.53
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TMK0331",
+        "load": 14.550,
+        "generation": 0.000,
+        "price": 202.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TMU0111",
+        "load": 22.694,
+        "generation": 0.000,
+        "price": 218.07
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TNG0111",
+        "load": 32.271,
+        "generation": 0.000,
+        "price": 208.00
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TNG0551",
+        "load": 0.016,
+        "generation": 0.000,
+        "price": 207.16
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TRK0111",
+        "load": 4.125,
+        "generation": 0.000,
+        "price": 211.72
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TUI1101",
+        "load": 40.246,
+        "generation": 0.000,
+        "price": 195.89
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TUI1101 KTW0",
+        "load": 0.000,
+        "generation": 31.000,
+        "price": 195.89
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TUI1101 PRI0",
+        "load": 0.000,
+        "generation": 40.000,
+        "price": 195.89
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TUI1101 TUI0",
+        "load": 0.000,
+        "generation": 54.300,
+        "price": 195.89
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWC2201 NZW0",
+        "load": 0.000,
+        "generation": 3.899,
+        "price": 205.45
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWC2201 TWF0",
+        "load": 0.000,
+        "generation": 20.300,
+        "price": 205.45
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWH0331",
+        "load": 56.461,
+        "generation": 0.000,
+        "price": 217.24
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWH0331 TUK0",
+        "load": 0.000,
+        "generation": 13.325,
+        "price": 217.24
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWI2201",
+        "load": 565.862,
+        "generation": 0.000,
+        "price": 209.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "TWZ0331",
+        "load": 3.999,
+        "generation": 0.000,
+        "price": 197.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "UHT0331",
+        "load": 19.935,
+        "generation": 0.000,
+        "price": 206.00
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WAI0111",
+        "load": 6.775,
+        "generation": 0.000,
+        "price": 212.21
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WAI0501",
+        "load": 0.700,
+        "generation": 0.000,
+        "price": 212.95
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WDV0111",
+        "load": 1.393,
+        "generation": 0.000,
+        "price": 206.12
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WDV1101 TAP0",
+        "load": 0.000,
+        "generation": 22.794,
+        "price": 205.83
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WEL0331",
+        "load": 21.975,
+        "generation": 0.000,
+        "price": 236.25
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WGN0331",
+        "load": 20.984,
+        "generation": 0.000,
+        "price": 202.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WHI0111",
+        "load": 59.306,
+        "generation": 0.000,
+        "price": 209.36
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WHU0331",
+        "load": 13.745,
+        "generation": 0.000,
+        "price": 222.46
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WIL0331",
+        "load": 32.122,
+        "generation": 0.000,
+        "price": 206.27
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WIL0331 MCK0",
+        "load": 0.000,
+        "generation": 6.540,
+        "price": 206.27
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WIR0331",
+        "load": 78.213,
+        "generation": 0.000,
+        "price": 225.69
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WKM2201",
+        "load": 4.048,
+        "generation": 0.000,
+        "price": 209.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WKM2201 MOK0",
+        "load": 0.000,
+        "generation": 101.000,
+        "price": 209.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WKM2201 WKM0",
+        "load": 0.000,
+        "generation": 69.000,
+        "price": 209.99
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WKO0331",
+        "load": 21.427,
+        "generation": 0.000,
+        "price": 224.45
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WPA2201 WPA0",
+        "load": 0.000,
+        "generation": 33.000,
+        "price": 209.16
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WPR0331",
+        "load": 4.500,
+        "generation": 0.000,
+        "price": 213.39
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WPR0661",
+        "load": 0.520,
+        "generation": 0.000,
+        "price": 212.24
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WPW0331",
+        "load": 12.865,
+        "generation": 0.000,
+        "price": 210.31
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WRD0331",
+        "load": 43.920,
+        "generation": 0.000,
+        "price": 224.40
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WRK0331",
+        "load": 33.137,
+        "generation": 0.000,
+        "price": 207.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WRK0331 RKA0",
+        "load": 0.000,
+        "generation": 26.000,
+        "price": 207.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WRK0331 TAA0",
+        "load": 0.000,
+        "generation": 26.000,
+        "price": 207.67
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WRK2201 WRK0",
+        "load": 0.000,
+        "generation": 138.000,
+        "price": 207.81
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WTK0111",
+        "load": 1.800,
+        "generation": 0.000,
+        "price": 196.30
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WTK0111 WTK0",
+        "load": 0.000,
+        "generation": 65.000,
+        "price": 196.30
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WTU0331",
+        "load": 61.704,
+        "generation": 0.000,
+        "price": 209.77
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WVY0111",
+        "load": 1.957,
+        "generation": 0.000,
+        "price": 191.50
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WWD1102 WWD0",
+        "load": 0.000,
+        "generation": 5.404,
+        "price": 206.02
+    },
+    {
+        "interval": "03-JUL-2020 14:00",
+        "interval_datetime": "2020-07-03T14:00:00",
+        "five_min_period": 1,
+        "isDayLightSavingHR": 0,
+        "pnode": "WWD1103 WWD0",
+        "load": 0.000,
+        "generation": 5.182,
+        "price": 206.02
     }
 ]

@@ -1,34 +1,31 @@
 <?php
 
-namespace EMI\Tests;
+namespace OurEnergy\Emi\Tests;
 
+use Nyholm\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Response;
+use Psr\Http\Client\ClientInterface;
+use Http\Mock\Client;
 
-class BaseTestCase extends TestCase
+abstract class BaseTestCase extends TestCase
 {
-    const SUBSCRIPTION_KEY = '1234567890';
-
     /**
      * @param string $body
-     * @param int $code
+     * @param int $status
      *
-     * @return HandlerStack
+     * @return ClientInterface
      */
-    protected function getMockResponseHandler(string $body, int $code = 200): HandlerStack
+    protected function getMockHttpClient(string $body = "", int $status = 200): ClientInterface
     {
-        $mock = new MockHandler([
-            new Response(
-                $code,
-                ['Content-Type' => 'application/json'],
-                $body
-            )
-        ]);
+        $headers = [
+            'Content-Type' => 'application/json'
+        ];
 
-        $handler = HandlerStack::create($mock);
+        $mockResponse = new Response($status, $headers, $body);
 
-        return $handler;
+        $mockClient = new Client();
+        $mockClient->addResponse($mockResponse);
+
+        return $mockClient;
     }
 }
