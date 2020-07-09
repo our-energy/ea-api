@@ -10,20 +10,24 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3",
-        "ext-json": "*"
+        "ext-json": "*",
+        "php-http/client-common": "^2.0",
+        "php-http/discovery": "^1.0",
+        "nyholm/psr7": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/mock-client": "^1.4"
     },
     "autoload": {
         "psr-4": {
-            "EMI\\": "src/"
+            "OurEnergy\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EMI\\Tests\\": "tests/"
+            "OurEnergy\\Emi\\Tests\\": "tests/"
         }
     }
 }

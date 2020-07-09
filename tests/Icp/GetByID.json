@@ -1,6 +1,9 @@
 [
     {
+        "ICPIdentifier": "0000120725TR687",
+        "ICPStatus": 2,
         "Address": {
+            "PropertyNameOrDescription": "",
             "PhysicalAddressUnit": "",
             "PhysicalAddressNumber": "260",
             "PhysicalAddressStreet": "TINAKORI ROAD",
@@ -12,30 +15,38 @@
             "GPS_Northing": 0.0
         },
         "Network": {
-            "Network": "CKHK",
+            "NetworkParticipantID": "CKHK",
+            "NetworkParticipantName": "Wellington Electricity Lines Ltd",
             "POC": "KWA0111",
             "ReconciliationType": "GN",
+            "InitialElectricallyConnectedDate": "1900-01-01",
             "GenerationCapacity": 0.0,
             "FuelType": "",
             "DirectBilledStatus": ""
         },
         "Pricing": {
-            "DistributorPriceCategoryCode": "RSU",
+            "DistributorPriceCategoryCode": "RSUTOU",
             "DistributorLossCategoryCode": "VECG1",
             "ChargeableCapacity": 0.00,
             "DistributorInstallationDetails": ""
         },
         "Trader": {
-            "Trader": "CTCT",
+            "TraderSwitchInProgress": false,
+            "TraderParticipantID": "CTCT",
+            "TraderParticipantName": "Contact Energy",
+            "ProfileCode": "HHR",
+            "ANZSICcode": "000000",
             "DailyUnmeteredkWh": "",
             "UnmeteredLoadDetails": ""
         },
         "Metering": {
-            "MeteringEquipmentProvider": "NGCM",
+            "MeteringEquipmentProviderParticipantID": "NGCM",
+            "MeteringEquipmentProviderParticipantName": "Advanced Metering Assets Limited",
             "InstallationInformation": [
                 {
                     "MeteringInstallationCategory": 1,
                     "MeteringInstallationType": "HHR",
+                    "CertificationExpiryDate": "2030-06-11",
                     "ComponentInformation": [
                         {
                             "MeteringComponentSerialNumber": "214279822",
@@ -50,7 +61,8 @@
                                     "PeriodOfAvailability": "24",
                                     "UnitOfMeasurement": "kWh",
                                     "EnergyFlowDirection": "X",
-                                    "AccumulatorType": "C"
+                                    "AccumulatorType": "C",
+                                    "SwitchReadIndicator": true
                                 },
                                 {
                                     "MeteringComponentSerialNumber": "214279822",
@@ -59,7 +71,8 @@
                                     "PeriodOfAvailability": "24",
                                     "UnitOfMeasurement": "kWh",
                                     "EnergyFlowDirection": "X",
-                                    "AccumulatorType": "C"
+                                    "AccumulatorType": "C",
+                                    "SwitchReadIndicator": true
                                 },
                                 {
                                     "MeteringComponentSerialNumber": "214279822",
@@ -68,7 +81,8 @@
                                     "PeriodOfAvailability": "24",
                                     "UnitOfMeasurement": "kWh",
                                     "EnergyFlowDirection": "X",
-                                    "AccumulatorType": "C"
+                                    "AccumulatorType": "C",
+                                    "SwitchReadIndicator": true
                                 },
                                 {
                                     "MeteringComponentSerialNumber": "214279822",
@@ -77,16 +91,16 @@
                                     "PeriodOfAvailability": "24",
                                     "UnitOfMeasurement": "kWh",
                                     "EnergyFlowDirection": "X",
-                                    "AccumulatorType": "A"
+                                    "AccumulatorType": "A",
+                                    "SwitchReadIndicator": false
                                 }
-                            ]
+                            ],
+                            "ComponentType": "M"
                         }
                     ]
                 }
             ]
         },
-        "ICPIdentifier": "0000120725TR687",
-        "ICPStatus": 2,
         "Messages": null
     }
 ]

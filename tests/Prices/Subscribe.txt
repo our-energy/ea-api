@@ -1,0 +1,1 @@
+User subscription successful. Data will be sent to http://someurl/ once the supplied url has been successfully verified.
