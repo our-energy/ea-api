@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace OurEnergy\Emi\Icp;
 
 use OurEnergy\Emi\BaseClient;
+use OurEnergy\Emi\Exception\ApiException;
 use Psr\Http\Client\ClientExceptionInterface;
 use OurEnergy\Emi\Icp\Factories\IcpFactory;
 

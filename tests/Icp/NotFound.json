@@ -1,0 +1,15 @@
+{
+  "ICPIdentifier": "1234567890AA111",
+  "ICPStatus": 0,
+  "Address": null,
+  "Network": null,
+  "Pricing": null,
+  "Trader": null,
+  "Metering": null,
+  "Messages": [
+    {
+      "Code": 103,
+      "Message": "ICP not found in the registry."
+    }
+  ]
+}
