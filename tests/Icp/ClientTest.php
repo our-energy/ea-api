@@ -27,12 +27,10 @@ class ClientTest extends BaseTestCase
         $this->assertEquals("NGCM", $icp->getMetering()->getParticipantID());
         $this->assertCount(1, $icp->getMetering()->getInstallationInformation());
 
-        /** @var Installation $installation */
         $installation = $icp->getMetering()->getInstallationInformation()[0];
 
         $this->assertEquals("2030-06-11", $installation->getCertificationExpiryDate()->format("Y-m-d"));
 
-        /** @var Component $component */
         $component = $installation->getComponentInformation()[0];
 
         $this->assertEquals("214279822", $component->getSerialNumber());
