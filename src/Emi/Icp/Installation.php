@@ -69,7 +69,7 @@ class Installation
     }
 
     /**
-     * @return array
+     * @return Component[]
      */
     public function getComponentInformation(): array
     {

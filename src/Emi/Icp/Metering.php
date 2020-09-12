@@ -48,7 +48,7 @@ class Metering
     }
 
     /**
-     * @return array
+     * @return Installation[]
      */
     public function getInstallationInformation(): array
     {

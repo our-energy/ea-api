@@ -2,6 +2,7 @@
 
 namespace OurEnergy\Emi\Tests\Icp;
 
+use OurEnergy\Emi\Exception\ApiException;
 use OurEnergy\Emi\Icp\Client;
 use OurEnergy\Emi\Icp\Component;
 use OurEnergy\Emi\Icp\Installation;
@@ -26,12 +27,10 @@ class ClientTest extends BaseTestCase
         $this->assertEquals("NGCM", $icp->getMetering()->getParticipantID());
         $this->assertCount(1, $icp->getMetering()->getInstallationInformation());
 
-        /** @var Installation $installation */
         $installation = $icp->getMetering()->getInstallationInformation()[0];
 
         $this->assertEquals("2030-06-11", $installation->getCertificationExpiryDate()->format("Y-m-d"));
 
-        /** @var Component $component */
         $component = $installation->getComponentInformation()[0];
 
         $this->assertEquals("214279822", $component->getSerialNumber());
@@ -65,5 +64,31 @@ class ClientTest extends BaseTestCase
         $this->assertCount(2, $icps);
         $this->assertEquals('0000120725TR687', $icps[0]->getIdentifier());
         $this->assertEquals('0000143772TR3FD', $icps[1]->getIdentifier());
+    }
+
+    public function testInvalidFormat(): void
+    {
+        $mockClient = $this->getMockHttpClient(file_get_contents(__DIR__ . '/InvalidFormat.json'), 400);
+
+        $client = new Client("1234567890", $mockClient);
+
+        $this->expectException(ApiException::class);
+        $this->expectExceptionMessage("Invalid ICP. An ICP is a 15 character string, comprised of 10 digits, 2 characters, and 3 hexi-decimal characters.");
+        $this->expectExceptionCode(400);
+
+        $client->getById("XXXXXXXX");
+    }
+
+    public function testNotFound(): void
+    {
+        $mockClient = $this->getMockHttpClient(file_get_contents(__DIR__ . '/NotFound.json'), 404);
+
+        $client = new Client("1234567890", $mockClient);
+
+        $this->expectException(ApiException::class);
+        $this->expectExceptionMessage("ICP not found in the registry.");
+        $this->expectExceptionCode(404);
+
+        $client->getById("1234567890AA111");
     }
 }

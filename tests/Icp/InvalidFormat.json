@@ -1,0 +1,15 @@
+{
+  "ICPIdentifier": "XXXXXXXX",
+  "ICPStatus": 0,
+  "Address": null,
+  "Network": null,
+  "Pricing": null,
+  "Trader": null,
+  "Metering": null,
+  "Messages": [
+    {
+      "Code": 400,
+      "Message": "Invalid ICP. An ICP is a 15 character string, comprised of 10 digits, 2 characters, and 3 hexi-decimal characters."
+    }
+  ]
+}

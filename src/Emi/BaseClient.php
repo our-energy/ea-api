@@ -5,8 +5,10 @@ declare(strict_types=1);
 namespace OurEnergy\Emi;
 
 use Nyholm\Psr7\Request;
+use OurEnergy\Emi\Exception\ApiException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
+use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
 abstract class BaseClient
@@ -53,6 +55,8 @@ abstract class BaseClient
 
         $this->response = $this->httpClient->sendRequest($request);
 
+        $this->parseException($request, $this->response);
+
         return $this->response;
     }
 
@@ -66,6 +70,31 @@ abstract class BaseClient
         $json = (string)$response->getBody();
 
         return json_decode($json, true, 512, JSON_OBJECT_AS_ARRAY);
+    }
+
+    /**
+     * Build meaningful exceptions from response data
+     *
+     * @param RequestInterface $request
+     * @param ResponseInterface $response
+     *
+     * @throws ApiException
+     */
+    protected function parseException(RequestInterface $request, ResponseInterface $response): void
+    {
+        if ($response->getStatusCode() >= 400 && $response->getStatusCode() < 600) {
+            $data = $this->parseBody($response);
+
+            if (!empty($data["message"])) {
+                throw new ApiException($data["message"], $response->getStatusCode(), $request, $response);
+            }
+
+            if (is_array($data["Messages"])) {
+                throw new ApiException($data["Messages"][0]["Message"], $response->getStatusCode(), $request, $response);
+            }
+
+            throw new ApiException($response->getReasonPhrase(), $response->getStatusCode(), $request, $response);
+        }
     }
 
     /**

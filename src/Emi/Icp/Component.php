@@ -21,7 +21,7 @@ class Component
     /** @var float */
     protected $compensationFactor;
 
-    /** @var array */
+    /** @var Channel[] */
     protected $channelInformation;
 
     /**
@@ -105,7 +105,7 @@ class Component
     }
 
     /**
-     * @return array
+     * @return Channel[]
      */
     public function getChannelInformation(): array
     {
