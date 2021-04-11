@@ -19,7 +19,7 @@ class Client extends BaseClient
      */
     public function getById(string $identifier): Icp
     {
-        $this->request("get", "ICPConnectionData/v2/single/?ICP=" . $identifier);
+        $this->request("GET", "ICPConnectionData/v2/single/?ICP=" . $identifier);
 
         $data = $this->parseBody($this->response);
 
@@ -34,7 +34,7 @@ class Client extends BaseClient
      */
     public function getByIdList(array $identifiers): array
     {
-        $this->request("get", "ICPConnectionData/v2/list/?ids=" . implode(",", $identifiers));
+        $this->request("GET", "ICPConnectionData/v2/list/?ids=" . implode(",", $identifiers));
 
         $data = $this->parseBody($this->response);
 
@@ -59,7 +59,7 @@ class Client extends BaseClient
             "region" => $region
         ];
 
-        $this->request("get", "ICPConnectionData/v2/search/?" . $this->buildQuery($query));
+        $this->request("GET", "ICPConnectionData/v2/search/?" . $this->buildQuery($query));
 
         $data = $this->parseBody($this->response);
 

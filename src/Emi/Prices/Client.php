@@ -69,7 +69,7 @@ class Client extends BaseClient
             );
         }
 
-        $this->request("get", $this->type . "?" . $this->buildQuery($query));
+        $this->request("GET", $this->type . "?" . $this->buildQuery($query));
 
         $data = $this->parseBody($this->response);
 
@@ -90,7 +90,7 @@ class Client extends BaseClient
             "url" => $url
         ];
 
-        $this->request("post", $this->type, json_encode($body));
+        $this->request("POST", $this->type, json_encode($body));
 
         return in_array($this->response->getStatusCode(), [200, 304]);
     }
@@ -101,7 +101,7 @@ class Client extends BaseClient
      */
     public function getSubscriptions(): array
     {
-        $this->request("options", $this->type);
+        $this->request("OPTIONS", $this->type);
 
         $data = $this->parseBody($this->response);
 
@@ -116,7 +116,7 @@ class Client extends BaseClient
      */
     public function unsubscribe(string $url): bool
     {
-        $this->request("delete", $this->type, json_encode($url));
+        $this->request("DELETE", $this->type, json_encode($url));
 
         return $this->response->getStatusCode() === 200;
     }
